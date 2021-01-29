@@ -20,6 +20,18 @@
     open.classList.remove('hide');
   });
 
-
-
+  /* スライドショー
+============================================================================================================ */
+  
+$('.slider').slick({
+  dots: true,
+  centerMode: true,
+  centerPadding: '5%',
+  autoplay: true,
+  autoplaySpeed: 1000,
+  fade: true,
+  speed: 900,
+  infinite: true,
+});
+ 
 }
