@@ -34,4 +34,5 @@ $('.slider').slick({
   infinite: true,
 });
  
+
 }
