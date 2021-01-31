@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+
+/* common
+============================================================================================================ */
+.item__inner {
+  margin: 30px auto;
+}
+
+.item__inner p {
+  line-height: 2;
+}
+
+/* タブレット以上 */
+@media screen and (min-width: 600px) {
+  .item__inner {
+    max-width: 1024px;
+    text-align: center;
+  }
+}
+
+/* message
+============================================================================================================ */
+.message {
+  padding: 20px 30px 10px;
+}
+
+.message p {
+  font-size: 1.6rem;
+}
+
+/* about-cake
+============================================================================================================ */
+.about-cake {
+  padding: 10px 0 0px;
+}
+
+.about-cake__inner {
+  margin: 10px auto 0;
+}
+
+.about-cake__section {
+  text-align: center;
+  padding: 30px;
+}
+
+.about-cake__item {
+  margin-top: 20px;
+}
+
+.about-cake__item img {
+  width: 25%;
+  height: auto;
+}
+
+.about-cake__subtitle {
+  padding-top: 10px;
+  line-height: 1.6;
+}
+
+.about-cake__text {
+  margin-top: 5px;
+}
+/* タブレット以上 */
+@media screen and (min-width: 600px) {
+  .about-cake__contents {
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+  }
+
+  .about-cake__section {
+    text-align: center;
+    padding: 50px;
+  }
+
+  .about-cake__item img {
+    width: 35%;
+    height: auto;
+  }
+
+  .about-cake__subtitle {
+    padding-top: 10px;
+    line-height: 2;
+  }
+
+}
+
+/* material
+============================================================================================================ */
+.material {
+  background-color: #F7DEEE;
+  border-radius: 2px;
+}
+.material h2 {
+  border-bottom: dashed 1px #493410;
+  margin-bottom: 20px;
+}
+
+/* PC */
+@media screen and (min-width : 1025px) {
+  .material h2 {
+    border-bottom: dashed 1px #493410;
+    margin-bottom: 40px;
+  }
+}
+
+/* base
+============================================================================================================ */
+.base .about-cake__item img{
+  width: 32%;
+  height: auto;
+}
+
+/* PC */
+@media screen and (min-width : 1025px) {
+  .base .about-cake__item img{
+    width: 40%;
+    height: auto;
+  }
+}
+/* other
+============================================================================================================ */
+.other {
+  background-color: #F7DEEE;
+  border-radius: 2px;
+}
+
+/* about__btn
+============================================================================================================ */
+.about__btn {
+  max-width: 1024px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.about__btn p a {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.about__btn .section__item-btn {
+  font-size: 1.4rem;
+  padding: 10px 50px;
+  text-transform: none;
+}
+
+/* タブレット以上 */
+@media screen and (min-width: 600px) {
+  .about__btn {
+    display: flex;
+    padding: 50px 18%;
+    justify-content: space-between;
+  }
+}

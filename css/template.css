@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+html {
+  font-size: 62.5%;
+  margin: 0;
+	padding: 0;
+	user-select: none;
+}
+
+body {
+	background-color:#ffffff;
+	font-size: 18px;
+	font-size: 1.8rem;
+	line-height: 2.0;
+	color: #493410;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	
+}
+body ,
+body #header {
+	/* 游ゴシックベース */
+	 font-family: "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	line-height: 1.8;
+}
+
+label {
+	cursor: pointer;
+}
+input, select, textarea, button {
+	max-width: 100%;
+	margin: 0;
+	vertical-align: middle;
+	font-family: inherit;
+	outline: none;
+	font-size: 100%;
+}
+
+button {
+	cursor: pointer;
+}
+iframe {
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+.hidden {
+	display: none;
+}
+.slick-slider * {
+	outline: none;
+}
+
+h1,h2,h3,h4,h5 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+ul,li,dl,dt,dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  margin:0;
+  padding:0;
+	font-size:100%;
+	color: #493411;
+  vertical-align:baseline;
+  background:transparent;
+	text-decoration:none;
+	-webkit-transition: .3s;
+  transition: .3s;
+}
+
+a:hover {
+  color: #F580FA;
+	text-decoration: none;
+}
+
+.fadeout{
+  opacity: 0;
+  transition: 3s ease-in-out;
+  -webkit-transition: 3s ease-in-out;
+  }
+  .fadein{
+  opacity: 1;
+  transition: 3s ease-in-out;
+  -webkit-transition: 3s ease-in-out;
+}
