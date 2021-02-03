@@ -5,280 +5,210 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CREVE</title>
   <meta name="description" content="兵庫県西宮市のオーダーケーキ専門店です。">
-  <link rel="icon" href="../images/logo.gif">
+  <link rel="icon" href="images/logo.gif">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- font -->
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text:600&display=swap" rel="stylesheet">
   <!-- /font -->
 
   <!-- CSS -->
-  <link rel="stylesheet" href="../css/reset.css">
-  <link rel="stylesheet" href="../css/template.css">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/section.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/template.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
   <!-- /CSS -->
 </head>
 
-  <body>
-    <!--   header   -->
-    <header class="header">
-      <div class="logo">
-        <h1>
-          <a href="../index.html"><img src="../images/logo.gif" alt="logo"></a>
-        </h1>
-      </div>
-  
-      <div class="pc-menu">
-        <nav>
-          <ul class="nav-list">
-            <li class="nav_item current"><a href="../index.html">Top</a></li>
-            <li class="nav_item"><a href="../about/index.html">About</a></li>
-            <li class="nav_item"><a href="../order/index.html">Order</a></li>
-            <li class="nav_item"><a href="../price/index.html">Price</a></li>
-            <li class="nav_item">
-              <a href="https://instagram.com/officialcreve?igshid=avt35u17ddl" target="_blank" rel="noopener noreferrer">Gallery</a>
-            </li>
-            <li class="nav_item"><a href="../index.html">Shopinfo</a></li>
-          </ul>
-        </nav>
-      </div>
-  
-      <div class="sp-menu">
-        <span class="material-icons" id="open">menu</span>
-      </div>
-  
-      <div class="overlay">
-        <span class="material-icons" id="close">close</span>
-        <nav>
-          <ul class="nav-list">
-            <li class="nav_item current"><a href="../index.html">Top</a></li>
-            <li class="nav_item"><a href="../about/index.html">About</a></li>
-            <li class="nav_item"><a href="../order/index.html">Order</a></li>
-            <li class="nav_item"><a href="../price/index.html">Price</a></li>
-            <li class="nav_item"><a href="https://instagram.com/officialcreve?igshid=avt35u17ddl">Gallery</a></li>
-            <li class="nav_item"><a href="../shopinfo/index.html">Shopinfo</a></li>
-          </ul>
-        </nav>
-      </div>
-    
-    </header>
-    <main>
-<!--            price-mainvisual               -->
-      <div class="section__mv price">
-        <h2 class="sp-menu filter"><img src="../images/PRICE/price_img-sp.jpg" alt="クレーヴについての紹介" class="filter-img section__mv-img"></h2>
-        <h2 class="pc-menu  filter"><img src="../images/PRICE/price_img-pc.jpg" alt="クレーヴについての紹介" class="filter-img section__mv-img"></h2>
-        <div class="section__mv-subtitle text-center">
-          <p><img src="../images/PRICE/price_white.png" alt="プライス"></p>
-          <p>ご注文の流れについて</p>
-        </div>
-      </div>
 
-<!--            price-flow               -->
-      <section class="price__flow text-center">
-        <div class="flow__inner">
-         <h2>ご注文の流れ</h2>
-          <ul class="flow__contents">
-            <li class="flow__contents-item">
-              <img src="../images/PRICE/mail.png" alt="メールを表す絵">
-              <p>
-                ① まずはオーダー可能日をご確認後、ご希望のデザインを送信。
-                <span class="pc-br">（HPオーダーフォーム、LINE、
-                お電話、のいずれかからご注文）
-              </span></p>
-            </li>
-            <li class="flow__contents-item">
-              <img src="../images/PRICE/quote.png" alt="見積もりを表す絵">
-              <p>② 見積もりをお送りいたします。</p>
-            </li>
-            <li class="flow__contents-item">
-              <img src="../images/PRICE/del.png" alt="配送を表す絵">
-              <p>③ 配送 or 店頭をお選びいただけます。</p>
-            </li>
-          </ul>
-        </div>
+<body>
+  <header class="header">
+    <div class="logo">
+      <h1>
+        <a href="index.html"><img src="images/logo.gif" alt="logo"></a>
+      </h1>
+    </div>
 
-      </section>
+    <div class="pc-menu">
+      <nav>
+        <ul class="nav-list">
+          <li class="nav_item current"><a href="index.html">Top</a></li>
+          <li class="nav_item"><a href="about/index.html">About</a></li>
+          <li class="nav_item"><a href="order/index.html">Order</a></li>
+          <li class="nav_item"><a href="price/index.html">Price</a></li>
+          <li class="nav_item">
+            <a href="https://instagram.com/officialcreve?igshid=avt35u17ddl" target="_blank" rel="noopener noreferrer">Gallery</a>
+          </li>
+          <li class="nav_item"><a href="#shopinfo">Shopinfo</a></li>
+        </ul>
+      </nav>
+    </div>
 
-<!--            price-detail               -->
-<section class="price__detail">
-  <div class="price__detail-inner">
-    
-    <!--            price-base               -->
-          <div class="price__base price__detail-content">
-            <h3> - ベース料金 - </h3>
-            <p>オーダーケーキでは、ご要望に応じてお見積もりをさせていただいております。</p>
-            <p>土台ベースの基本料金はこちら。(フルーツやデコレーションパーツ、トッピング等でプラスの料金となります。)</p>
+    <div class="sp-menu">
+      <span class="material-icons" id="open">menu</span>
+    </div>
 
-            <table>
-              <tr>
-                <th>サイズ</th>
-                <th>料金</th>
-              </tr>
-              <tr>
-                <td>5号(＊基本サイズ)</td>
-                <td>12,000円〜</td>
-              </tr>
-              <tr>
-                <td>6号</td>
-                <td>13,000円〜</td>
-              </tr>
-              <tr>
-                <td>2段ケーキ(5号+6号)</td>
-                <td>25,000円〜</td>
-              </tr>
-              <tr>
-                <td>ビッグカップケーキ</td>
-                <td>10,000円〜</td>
-              </tr>
-            </table>
-          </div>
-
-<!--            price-pay               -->
-          <div class="price__pay price__detail-content">
-            <h3> - お支払いについて - </h3>
-            <p class="line">発送受取のお客様</p>
-            <div class="price__pay-subtxt">
-              <p>
-                事前のお振込をお願いしております。 デザイン確定後にお振込みのご案内をさせていただきます。 
-                
-              </p>
-              <p class="marker">
-                お振込み確認後に制作を開始いたしますので、期日を過ぎた場合、到着予定日が遅れる可能性がございます。
-              </p>
-              <p> また、お振込完了後のデザインのご変更はお受けできませんので、予めご了承下さい。</p>
-            </div>
+    <div class="overlay">
+      <span class="material-icons" id="close">close</span>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav_item current"><a href="index.html">Top</a></li>
+          <li class="nav_item"><a href="about/index.html">About</a></li>
+          <li class="nav_item"><a href="order/index.html">Order</a></li>
+          <li class="nav_item"><a href="price/index.html">Price</a></li>
+          <li class="nav_item"><a href="https://instagram.com/officialcreve?igshid=avt35u17ddl">Gallery</a></li>
+          <li class="nav_item"><a href="shopinfo/index.html">Shopinfo</a></li>
+        </ul>
+      </nav>
+    </div>
         
-            <p class="line">店頭受取のお客様</p>
-            <p class="price__pay-subtxt">
-              当日、店頭にてお支払いいただきます。 支払い方法は現金またはPayPayのみとなります。 
-            </p>
-
-            <table>
-              <tr>
-                <td>1段ケーキ</td>
-                <td>1,370円〜</td>
-              </tr>
-              <tr>
-                <td>2段ケーキ</td>
-                <td>1,720円〜</td>
-              </tr>
-            </table>
-            
-          </div>  
-          
-<!--            price-del               -->
-          <div class="price__del price__detail-content">
-            <h3> - デリバリーについて - </h3>
-            <p class="line">クレーヴでは配送も承りしております。 最短1週間前〜3ヶ月前までご予約可能です。
-              <span class="sp-br">(お届け先都道府県によって配送日程が異なります。)</span></p>
-              <p class="fs-14">＊以下、デリバリーご希望のお客様はご覧ください</p>
-              
-              <p class="line">デリバリー方法</p>
-              <p class="price__del-subtxt">ヤマト運輸クール便</p>
-              
-              <div id="text-wrap">
-                <div class="show-text">
-                  <p class="line">受取日の選択</p>
-                   <p class="price__del-subtxt">ご予約の際には、受取日を①または②からお選びいただいております。</p>
-                  </div>
-
-                  <div class="hide-text">
-                    <div class="price__del-reason">
-                      <p>
-                      ①お誕生日会・パーティー当日から1週間前受け取りをご希望の場合について
-                      <span class="marker">※オススメ</span>
-                      </p>
-                      <p class="fs-14">(例:1/8がお誕生日当日の場合、1/1着のご予約)</p>
-                      <p>→受取後は、冷凍庫にて保管をお願いいたします。</p>
-                      <p class="marker">※オススメの理由</p>
-                      <p>発送時、細心の注意をはらって梱包をし、お送りさせていただきます。 もし、大きく崩れてしまった場合、当日までに新しくお作りして再度ケーキをお送りさせていただきます。その期間を考え、1週間前のご予約をオススメしております。</p>
-                    </div>
-                    
-                    <div class="price__del-reason">
-                      <p>②お誕生日・パーティー前日、当日受け取りをご希望の場合について</p>
-                      <p class="marker">(冷凍庫の保管スペース確保が難しいお客様にオススメしております。)</p>
-                      <p>ごく稀に大きく崩れてしまった場合、直前受取(②)でのご予約では、大きく崩れた場合でも再度、制作・ご配送手配のお時間がございません。</p>
-                      <p>その場合、全額ご返金させていただきます。 予めご了承ください。</p>
-                    </div>
-
-                  </div>
-
-                  <button class="readmore">READ MORE</button>
-              </div>
-            </div>    
-
-
-<!--            price-cancel               -->
-            <div class="price__cancel price__detail-content">
-              <h3> - キャンセルについて - </h3>
-              <p class="marker">クレーヴでは、確定後のオーダーキャンセルを原則承っておりません。</p>
-              <p>なお、やむを得ない事情がある場合には 誠に勝手ながらご予約のキャンセルを</p>
-              <p class="marker">到着日より10日前の19時迄とさせていただきます。</p>
-              
-              <p class="fs-14">(例：1/11着でご予約の場合、1/1の19時迄)</p>
-              <p> 10日以内のキャンセルの場合、<span class="line">ご返金致しかねます</span>ので予めご了承ください。</p>
-    
-            </div>
-
-<!--            price-del               -->
-            <div class="price__trouble price__detail-content">
-              <h3> - ケーキの破損について - </h3>
-              <p class="fs-14">
-                発送時は崩れないようしっかりと梱包させていただき、“天地無用・取扱注意”でお送りしておりますが、到着までの取り扱いはヤマト運輸さんにお任せすることになります。
-              </p>
-                
-                <p class="line">デリバリー方法</p>
-                <p class="price__del-subtxt">ヤマト運輸クール便</p>
-                
-                <div id="text-wrap">
-                  <div class="show-text">
-                
-                    </div>
-
-                    <div class="hide-text">
-      
-                    </div>
-
-                    <button class="readmore">READ MORE</button>
-                </div>
-              </div>    
-
-
-
-
-
-
-
-
-
-              
-
-
-              
   
+  </header>
+
+  <main>
+  <!--            mainvisual               -->
+    <div class="mainvisual">
+      <div class="mv_inner">
+        <p class="mv__sp sp-menu"><img src="images/TOP/top_img-sp.png" alt="クレーヴについての紹介"></p>
+        <p class="mv__pc pc-menu"><img src="images/TOP/top_img-pc.jpeg" alt="クレーヴについての紹介"></p>
+      </div>
+    </div>
+
+  <!--            about               -->
+    <section class="about">
+      <div class="about__inner">
+        <div class="box">
+          <h2 class="section__title"><img src="images/TOP/about_title.png" alt="アバウト"></h2>
+          <p>はじめまして CREVEです!</p>
+          <p>当店は、お客様の叶えたいをカタチにする
+           <span class="sp-br">オーダケーキ専門店です。</span></p>
+          <p>ぜひCREVEに 大切な一日を飾る
+          <span class="sp-br">お手伝いをさせてください。</span></p>
+          <p><a href="about/index.html" class="section__item-btn">View</a></p>
+        </div>
+      </div>
+    </section>
+            
+    <!--            order               -->
+    <section class="contents__section  text-center">
+
+      <div class="order">
+        <div class="section__inner">
+          <div class="section__item-mv">
+            <p><img src="images/TOP/order.png" alt="オーダー"></p>
+          </div>
+          <div class="section__item-txt">
+            <p>営業日・オーダー可能日を<span class="sp-br">こちらからご確認いただけます。</span></p>
+            <p><a href="order/index.html" class="section__item-btn">view</a></p>
+          </div>
+        </div>
+      </div>
+  
+  
+      <!--            price               -->
+      <div class="price">
+        <div class="section__inner">
+          <div class="section__item-mv">
+            <p><img src="images/TOP/price.png" alt="プライス"></p>
+          </div>
+          <div class="section__item-txt">
+            <p>ご注文の流れ・料金その他を<span class="sp-br">こちらからご確認いただけます。</span></p>
+            <p><a href="price/index.html" class="section__item-btn">view</a></p>
+          </div>
+        </div>
+      </div>
+
+     </section>  
+     <!--            gallery               -->
+           <section class="gallery">
+           <div class="section__inner">
+             <h2 class="section__title"><img src="images/TOP/gallery_title.png" alt="ギャラリー"></h2>
+     
+             <ul class="slider">
+               <li>
+                 <a href="https://instagram.com/officialcreve?igshid=avt35u17ddl" target="_blank" rel="noopener noreferrer">
+                  <img src="images/TOP/g_img1.png" alt="ギャラリー写真1枚目"></a>
+               </li>
+     
+               <li>
+                <a href="https://instagram.com/officialcreve?igshid=avt35u17ddl" target="_blank" rel="noopener noreferrer">
+                  <img src="images/TOP/g_img2.png" alt="ギャラリー写真2枚目"></a>
+               </li>
+     
+               <li>
+                <a href="https://instagram.com/officialcreve?igshid=avt35u17ddl" target="_blank" rel="noopener noreferrer">
+                  <img src="images/TOP/g_img3.png" alt="ギャラリー写真3枚目"></a>
+               </li>
+     
+               <li>
+                <a href="https://instagram.com/officialcreve?igshid=avt35u17ddl" target="_blank" rel="noopener noreferrer">
+                  <img src="images/TOP/g_img4.png" alt="ギャラリー写真4枚目"></a>
+               </li>
+     
+               <li>
+                <a href="https://instagram.com/officialcreve?igshid=avt35u17ddl" target="_blank" rel="noopener noreferrer">
+                  <img src="images/TOP/g_img5.png" alt="ギャラリー写真5枚目"></a>
+               </li>
+     
+               <li>
+                <a href="https://instagram.com/officialcreve?igshid=avt35u17ddl" target="_blank" rel="noopener noreferrer">
+                  <img src="images/TOP/g_img6.png" alt="ギャラリー写真6枚目"></a>
+               </li>
+             </ul>
+             <div class="section__item-txt text-center">
+               <p>過去の作品も多数掲載しています。<span class="sp-br">新商品も日々更新中。</span></p>
+               <p class="gallery__btn"><a href="https://instagram.com/officialcreve?igshid=avt35u17ddl" class="section__item-btn" target="_blank" rel="noopener noreferrer">view more</a></p>
+             </div> 
+           </div>
+           </section>
+
+        
+<!--            shopinfo               -->
+      <section id="shopinfo">
+        <div class="shopinfo__inner text-center">
+          <h2 class="section__title"><img src="images/TOP/shopinfo_title.png" alt="ショップインフォメーション"></h2>
+          <img class="shopinfo__mv" src="images/TOP/shop_img.png" alt="店の写真">
+
+          <hr class="border">
+
+          <div class="shopinfo__text">
+            <p class="shopinfo__text-title">住所</p>
+            <p>〒662-0075</p>
+            <p>兵庫県西宮市南越木岩町11-22</p>
+            <p>＊阪急苦楽園口駅から徒歩2分</p> 
 
 
+            <p class="shopinfo__text-title">お問い合わせ</p>
+            <p class="marker"><a href="contact/index.html">お問い合わせフォームはこちら</a></p> 
+            <p>TEL : 0798-74-7820</p>
+            <p class="line"><a href="#">《LINEでのお問い合わせも可能です》</a></p> 
+
+            <p class="shopinfo__text-title">営業時間</p>
+            <p>店頭受渡し 11 : 00 〜18 : 00</p>
+            <p><a href="order/index.html">不定休 <span class="line">カレンダーはこちら</span></a></p> 
 
           </div>
+
+
+          <div class="gmap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.2031644291455!2d135.32511871507663!3d34.75047468805896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000f31caa05913b%3A0x8e2ad105effef1ec!2zYWxsIGhhbmRtYWRlIGNha2Ugc3RvcmUg77yj77yy77yl77y277yl!5e0!3m2!1sja!2sjp!4v1602895653537!5m2!1sja!2sjp" width="600" height="450" style="border:0;" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+
+        </div>
       </section>
-<!--            price-detail               -->
-
-
-<!--            price-btn               -->
-      <div class="price__btn text-center">
-        <p><a href="../order/index.html" class="section__item-btn">ケーキのご注文はこちら</a></p>
-      </div>
     </main>
-    <!--            footer               -->
-    <footer class="footer text-center">
-      <a href="../index.html" class="footer_logo"><img src="../images/logo.gif" alt="logo"></a>
-      <p class="copyright">&copy;CREVE ALL Rights Reserved.</p>
-    </footer>
+
+  
+  <!--            footer               -->
+  <footer class="footer text-center">
+    <a href="index.html" class="footer_logo"><img src="images/logo.gif" alt="logo"></a>
+    <p class="copyright">&copy;CREVE ALL Rights Reserved.</p>
+  </footer>
 
   <!--            js               -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script type="text/javascript" src="../js/slick.min.js"></script>
-  <script src="../js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
 
   </body>
 </html>
