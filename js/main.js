@@ -22,17 +22,35 @@
 
   /* スライドショー
 ============================================================================================================ */
-  
-$('.slider').slick({
-  dots: true,
-  centerMode: true,
-  centerPadding: '5%',
-  autoplay: true,
-  autoplaySpeed: 1000,
-  fade: true,
-  speed: 900,
-  infinite: true,
+$(function(){
+  const $setElm = $('.viewer'),
+  fadeSpeed = 1500,
+  switchDelay = 5000;
+
+  $setElm.each(function(){
+      const targetObj = $(this);
+      const findUl = targetObj.find('ul');
+      const findLi = targetObj.find('li');
+      const findLiFirst = targetObj.find('li:first');
+
+      findLi.css({display:'block',opacity:'0',zIndex:'99'});
+      findLiFirst.css({zIndex:'100'}).stop().animate({opacity:'1'},fadeSpeed);
+
+      setInterval(function(){
+          findUl.find('li:first-child').animate({opacity:'0'},fadeSpeed).next('li').css({zIndex:'100'}).animate({opacity:'1'},fadeSpeed).end().appendTo(findUl).css({zIndex:'99'});
+      },switchDelay);
+  });
 });
  
+
+jQuery(function ($) {
+  $('.js-accordion-title').on('click', function () {
+    /*クリックでコンテンツを開閉*/
+    $(this).next().slideToggle(200);
+    /*矢印の向きを変更*/
+    $(this).toggleClass('open', 200);
+  });
+  
+  });
 
 }
