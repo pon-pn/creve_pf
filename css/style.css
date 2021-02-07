@@ -781,3 +781,39 @@ width: 100%;
   }
 
 }
+
+/* thanks-page
+============================================================================================================ */
+.thanks {
+  padding: 100px 30px;
+  margin: 0 auto;
+}
+
+.thanks__inner {
+  background-color: #f6a6d8;
+  text-align: center;
+  padding: 100px 0;
+  border-radius: 3px;
+  border: 1px solid pink;
+}
+
+.thanks img {
+  width: 40%;
+  height: auto;
+}
+
+.thanks h1 {
+  margin-bottom: 20px;
+}
+
+/* タブレット以上 */
+@media screen and (min-width: 600px) {
+  .thanks {
+    padding: 200px 30px;
+    margin: 0 auto;
+  }
+  .thanks img {
+    width: 15%;
+    height: auto;
+  }
+}

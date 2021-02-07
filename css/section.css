@@ -145,7 +145,7 @@
 ============================================================================================================ */
 .about__btn {
   max-width: 1024px;
-  padding: 30px;
+  padding: 30px 10px 5px;
   margin: 0 auto;
 }
 
@@ -436,6 +436,49 @@
 .order .cal iframe {
   width: 500px;
   height: 380px;
+}
+
+.contact {
+  padding: 10px 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.contact h3 {
+  margin-bottom: 30px;
+}
+
+.contact__inner {
+  max-width: 1024px;
+  margin: 40px auto;
+}
+
+.form__item {
+  margin-bottom: 30px;
+}
+
+.form__title {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.form__title span {
+  display: inline-block;
+  margin-left: 10px;
+  color: #F580FA;
+}
+
+.form__parts {
+  appearance: none;
+  width: 100%;
+  box-sizing: border-box;
+  border: solid 1px #F5E9EB;
+  background-color: #F5E9EB;
+  padding: 15px 8px;
+  border-radius: 3px;
+  color: #adacaa;
+  font-weight: 300;
 }
 
 /* タブレット */
