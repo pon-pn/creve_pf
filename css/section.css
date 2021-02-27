@@ -161,6 +161,13 @@
   text-transform: none;
 }
 
+.price__btn .section__item-btn {
+  font-size: 1.4rem;
+  padding: 20px 50px;
+  margin-bottom: 6px;
+  text-transform: none;
+}
+
 /* タブレット以上 */
 @media screen and (min-width: 600px) {
   .about__btn {
