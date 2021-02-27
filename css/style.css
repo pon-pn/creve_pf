@@ -415,19 +415,19 @@ header h1 {
 ============================================================================================================ */
 .about {
   height: 200px;
-  padding: 45px 0 140px;
+  padding: 45px 0 180px;
   background-color: #fff;
 }
 
 .about__inner {
-  padding-left: 30px !important;
-  padding-right: 30px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
 }
 
 .about .box {
   background-color: rgba(245,233,235,.9);
   text-align: center;
-  padding: 15px 0;
+  padding: 15px 8px;
   border-radius: 3px;
   border: 1px solid #F5E9EB;
 }
